@@ -71,7 +71,6 @@ header nav ul li a {
     display: fixed;
     justify-content: center;
     flex-wrap: wrap;
-    /* line-height: 9.0; */
     color: var(--secondary-color);
     flex: 1;
 }
@@ -80,6 +79,8 @@ header nav ul li a {
 .bio img {
 padding: 60px 20px 60px 20px;
 flex: 1;
+
+
 }
 
 .my-story {
@@ -87,4 +88,60 @@ flex: 1;
     flex-direction: row;
     justify-content: space-around;
 }
+
+.text {
+    padding: 60px 20px;
+}
+
+.text h3 {
+    font-size: 28px;
+    line-height: 5px;
+    padding: 20px 10px;
+    
+}
+
+.text p {
+font-size: 20px;
+}
+
+/*My  Projects */
+
+.my-projects {
+    width: 100%;
+    margin: 0 auto;
+  
+}
+
+.projects {
+    width: 25%;
+    margin: 20px;
+    
+}
+
+.projects img {
+    width: 100%;
+}
+
+.boxes h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.boxes p {
+    text-align: center;
+}
+
+.my-work {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+ 
+
+
+
+
 
