@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
 :root {
     --primary-color: black;
     --secondary-color: white;
@@ -12,7 +10,11 @@
 
 body {
    background-image: url(../images/2020-black-crystalline-peaks-image.jpg);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .banner-primary {
@@ -145,7 +147,7 @@ header nav ul li a {
 
 .my-projects {
     width: 100%;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 3px;
     background-color: var(--secondary-color);
   
@@ -285,33 +287,50 @@ header nav ul li a {
 }
 
 /*Mobile Responsivness */
-@media screen and (max-width: 980px) {
- 
-header nav ul li a {
-    font-size: 20px;
+
+@media screen and (max-width: 575px) {
+    header {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 15px;
+    }
+
+    .my-image img {
+       width: 300px;
+    }
+
+.text p {
+    margin: 10px;
 }
 
-.bio {
-    width: 100%;
-    padding: 30px;
+.project-banner {
+    font-size: 36px;
+}
+
+.run-projects img {
+    width: 200px;
+    text-align: center;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
-    
+.boxes h3, p {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
 
+.my-work img {
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
 
-    
-
-
-
-
-
- 
-
-
-
-
-
-
-
+}
