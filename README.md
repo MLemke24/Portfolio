@@ -13,4 +13,4 @@ This repository contains my professional portfolio for prospective employers and
 * CSS
 
 ##  Contact Me Here
-Matthew Lemke [My Contact Info!](Mattrlemke@gmail.com)
+Matthew Lemke: Mattrlemke@gmail.com
